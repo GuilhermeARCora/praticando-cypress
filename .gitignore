@@ -1,0 +1,15 @@
+# Node
+node_modules/
+.env
+package-lock.json
+
+# Cypress
+cypress/videos/
+cypress/screenshots/
+
+# VSCode
+.vscode/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
