@@ -15,20 +15,19 @@ Automatizar os seguintes fluxos:
 
 1. Clone o projeto:
    ```bash
-   git clone <url-do-repositório>
-   cd nome-do-projeto
+   git clone [<url-do-repositório>](https://github.com/GuilhermeARCora/praticando-cypress.git)
 
 2. Instale as dependências:
-  ```bash
-  npm install
-
+   ```bash
+   npm install
+   ```
 3. Execute os testes:
 
 Modo interativo:
   ```bash
   npx cypress open
-
+  ```
 Modo headless:
   ```bash
   npx cypress run
-
+  ```
