@@ -4,30 +4,30 @@ Este projeto contém a automação dos testes de interface para o site [SauceDem
 
 ## 📌 Objetivo
 
-Automatizar os seguintes fluxos:
+* Foram automatizados os seguintes fluxos com sucesso:
 
-- Login e Logout
+- Login e Logout com validações positivas e negativas
+
 - Visualização e ordenação de produtos
-- Gerenciamento de carrinho
-- Checkout completo
+
+- Adição, remoção e validação de itens no carrinho
+
+- Processo completo de checkout, incluindo validações de campos obrigatórios e confirmação da compra
+
+* Os testes organizados por funcionalidade e documentados com anotações no estilo BDD.
 
 ## 🚀 Como Executar
 
 1. Clone o projeto:
    ```bash
-   git clone [<url-do-repositório>](https://github.com/GuilhermeARCora/praticando-cypress.git)
+   git clone [<url-do-repositório>](git@github.com:GuilhermeARCora/praticando-cypress.git)
 
 2. Instale as dependências:
    ```bash
    npm install
    ```
 3. Execute os testes:
-
-Modo interativo:
   ```bash
   npx cypress open
   ```
-Modo headless:
-  ```bash
-  npx cypress run
-  ```
+
