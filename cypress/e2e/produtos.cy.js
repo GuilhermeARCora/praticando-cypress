@@ -38,9 +38,9 @@ describe('Produtos', () => {
   // Then os produtos devem estar ordenados do menor para o maior preço
 
   it('deve ordenar os produtos por preço do menor para o maior', () => {
-    cy.url().should('include', '/inventory.html'); // garante que o login funcionou
-    cy.get('#inventory_container').should('be.visible'); // espera a tela carregar
-    cy.get('.product_sort_container').should('be.visible').select('lohi'); // agora deve funcionar
+    cy.url().should('include', '/inventory.html'); 
+    cy.get('#inventory_container').should('be.visible'); 
+    cy.get('.product_sort_container').should('be.visible').select('lohi');  
 
     cy.get('.inventory_item_price').then(($precos) => {
         const precos = [...$precos].map(p => parseFloat(p.innerText.replace('$', '')));
